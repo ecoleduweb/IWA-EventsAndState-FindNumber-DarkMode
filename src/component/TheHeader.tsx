@@ -1,5 +1,4 @@
 import '../style/TheHeader.scss'
-import AButton from './ASimpleButton'
 
 const TheHeader = () => {
   return (
