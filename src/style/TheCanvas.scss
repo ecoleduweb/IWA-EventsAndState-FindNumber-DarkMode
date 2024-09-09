@@ -1,0 +1,24 @@
+#canva {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 60px;
+    cursor: crosshair;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    height: 50%;
+    width: 50%;
+
+    :hover {
+        background-color: #321222;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
