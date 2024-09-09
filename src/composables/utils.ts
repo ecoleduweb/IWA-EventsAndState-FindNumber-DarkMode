@@ -1,3 +1,5 @@
+import LogoProps from "../types/Logo";
+
 const getCoordinates = (e: React.MouseEvent<HTMLDivElement>): { x: number, y: number } => {
   const rect = e.currentTarget.getBoundingClientRect();
   const x = e.clientX - rect.left - 20;
@@ -9,6 +11,10 @@ const addLogo = (setLogos: React.Dispatch<React.SetStateAction<LogoProps[]>>, lo
   setLogos([...logos, { x, y }]);
 }
 
-const getInputValueWithVanillaJs = () => document.getElementById('number') as HTMLInputElement
+const getInputValueWithVanillaJs = (id: string) => {
+  if (document.readyState === 'complete') {
+    return (document.getElementById(id) as HTMLInputElement).value
+  }
+}
 
 export { getCoordinates, addLogo, getInputValueWithVanillaJs }
