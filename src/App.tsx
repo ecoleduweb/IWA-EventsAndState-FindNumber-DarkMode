@@ -17,9 +17,10 @@ const App = () => {
         <p>Comprendre comment intéragir avec l'utilisateur à partir d'un event</p>
         <p>BONUS : afficher des affaires avec un event</p>
         <h2>En fin de cours</h2>
-        <p>useState</p>
+        <p>présentation du use state</p>
         <TheForm />
-        <AFindTheNumberGame />
+        {/* Quand tu as fini TheForm, décommente AFindTheNumberGame */}
+        {/* <AFindTheNumberGame /> */}
         {/* <TheCanva /> */}
       </div>
     </div>

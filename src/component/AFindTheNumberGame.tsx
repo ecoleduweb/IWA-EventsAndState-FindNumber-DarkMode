@@ -11,7 +11,7 @@ console.log(secrectNumer)
 // 2. Si le chiffre est bon, affiche une alerte avec le message "Bravo! Le chiffre était bien {secrectNumer}"
 // 3. Si tu as terminé, ajoute un évènement sur la touche "Entrée" pour valider le chiffre
 // 4. Si tu as terminé, fait la validation à chaque fois que l'utilisateur appuie sur une touche
-// 5. Si tu as terminé, ajoute un évènement qui valide que la valeur que tu as entrée est bien un chiffre positif plus petit ou égal à 10
+// 5. Si tu as terminé, ajoute un évènement qui valide que la valeur que tu as entré est bien un chiffre positif plus petit ou égal à 10
 
 const AFindTheNumberGame = () => {
   return (
