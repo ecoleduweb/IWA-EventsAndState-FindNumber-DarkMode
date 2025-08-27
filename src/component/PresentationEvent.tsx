@@ -1,9 +1,12 @@
 
 const PresentationEvent = () => {
 
-  const maFonction = (e: React.FormEvent) => {
+  const eventClick = (e: React.FormEvent) => {
     alert('Merci de ne pas soumettre ce formulaire')
+    console.log(e)
   }
+
+  // ajoutons des events!
 
   return (
     <form action="/">
@@ -12,7 +15,7 @@ const PresentationEvent = () => {
         Ton numéro de carte de crédit
         <input type="text" name="text" id="creditcartnumber" value="1233134134" />
       </label>
-      <button onclick=(maFonction)>Soumettre</button>
+      <button onclick={eventClick}>Soumettre</button>
     </form>
   )
 }

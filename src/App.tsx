@@ -3,6 +3,7 @@ import TheHeader from './component/TheHeader'
 import AFindTheNumberGame from './component/AFindTheNumberGame'
 import TheCanva from './component/TheCanvas'
 import TheForm from './component/TheForm'
+import PresentationEvent from './component/PresentationEvent'
 
 const App = () => {
   const cssClass = 'ligth-mode'
@@ -18,7 +19,8 @@ const App = () => {
         <p>BONUS : afficher des affaires avec un event</p>
         <h2>En fin de cours</h2>
         <p>présentation du use state</p>
-        <TheForm />
+        <PresentationEvent />
+        {/* <TheForm /> */}
         {/* Quand tu as fini TheForm, décommente AFindTheNumberGame */}
         {/* <AFindTheNumberGame /> */}
         {/* <TheCanva /> */}
