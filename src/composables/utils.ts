@@ -12,9 +12,11 @@ const addLogo = (setLogos: React.Dispatch<React.SetStateAction<LogoProps[]>>, lo
 }
 
 const getInputValueWithVanillaJs = (id: string) => {
-  if (document.readyState === 'complete') {
+  if (document && document.readyState === 'complete' && document.getElementById(id)) {
     return (document.getElementById(id) as HTMLInputElement).value
   }
+  return 'Le document n\'est pas encore chargé.';
 }
+
 
 export { getCoordinates, addLogo, getInputValueWithVanillaJs }
