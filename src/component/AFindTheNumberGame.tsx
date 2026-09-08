@@ -4,7 +4,7 @@ import '../style/AButton.scss'
 const secrectNumber = Math.floor(Math.random() * 10)
 const number = getInputValueWithVanillaJs('secretnumber')
 
-console.log(secrectNumer)
+console.log(secrectNumber)
 
 // 1. Ajoute un évènement sur le bouton pour vérifier si le chiffre entré est le bon (onclick)
 // 2. Si le chiffre est bon, affiche une alerte avec le message "Bravo! Le chiffre était bien {secrectNumer}"
