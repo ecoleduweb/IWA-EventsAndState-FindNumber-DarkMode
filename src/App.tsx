@@ -17,8 +17,6 @@ const App = () => {
         <p>Comprendre comment prévenir le comportement d'un event</p>
         <p>Comprendre comment intéragir avec l'utilisateur à partir d'un event</p>
         <p>BONUS : afficher des affaires avec un event</p>
-        <h2>En fin de cours</h2>
-        <p>présentation du use state</p>
         <PresentationEvent />
         {/* <TheForm /> */}
         {/* Quand tu as fini TheForm, décommente AFindTheNumberGame */}

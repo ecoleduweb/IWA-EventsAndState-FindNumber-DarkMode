@@ -1,7 +1,7 @@
 
 const PresentationEvent = () => {
 
-  const eventClick = (e: React.FormEvent) => {
+  const handleClick = (e: React.FormEvent) => {
     alert('Merci de ne pas soumettre ce formulaire')
     console.log(e)
   }
@@ -13,9 +13,9 @@ const PresentationEvent = () => {
       <h1>Ne soumet pas ce formulaire</h1>
       <label>
         Ton numéro de carte de crédit
-        <input type="text" name="text" id="creditcartnumber" value="1233134134" />
+        <input type="text" name="text" id="creditcartnumber1" value="1233134134" />
       </label>
-      <button onclick={eventClick}>Soumettre</button>
+      <button onClick={handleClick}>Soumettre</button>
     </form>
   )
 }
